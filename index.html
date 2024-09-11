@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive2</title>
+    <style>
+.video-background {
+                    position: relative;
+                    height: 30vh;
+                    overflow: hidden;
+                  }
+
+
+.background-video {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    min-width: 100%; 
+                    min-height: 100%;
+                    width: auto;
+                    height: auto;
+                    z-index: -1;
+                    transform: translate(-50%, -50%);
+                   }
+
+
+          .content {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    position: relative;
+                    z-index: 1;
+                    color: white;
+                    text-align: center;
+                    font-family: Arial, sans-serif;
+                    top: 50%;
+                    transform: translateY(-50%);
+                   }
+                 ul{
+                    display: flex;
+                   }
+                 li{
+                    padding: 10%;
+                    font-weight: 800;
+                   }
+                  a{
+                    text-decoration: none;
+                    color: blue;
+                  } 
+              input{
+                    margin-left: 15%;
+                    margin-top: 2%;
+                    height: 4vh;
+                    width: 15%;
+                    border-radius: 20px;
+                   }      
+        .container2{
+                    display: grid;
+                    grid-template-columns: 20% 80%;
+                   }
+             .part1{
+                    width: 100%;
+                    height: 80vh;
+                    border: 0px solid;
+                    background-color: whitesmoke;
+                   }
+             .part2{
+                    width: 100%;
+                    height: 80vh;
+                    border: 0px solid;
+                    background-color: white;
+                    }
+     
+        .container3{
+                    display: grid;
+                    grid-template-columns: auto auto auto auto;
+                    background-color: black;
+                    width: 100%;
+                    height: 40vh;
+                   }
+             .part3{
+                    width: 100%;
+                    border: 0px solid white;
+                    color: white;
+                   }           
+
+    </style>
+</head>
+<body>
+            <div class="video-background">
+                <video autoplay muted loop class="background-video">
+                    <source src="navbgvideo.mp4" type="video/mp4">
+                </video>
+                <div class="content">
+            <h1 style="font-size: 3em;">My Brand</h1>
+            <ul type="none">
+                <li>Home</li>
+                <li>Services</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            <input type="text" placeholder="search">
+            </div>
+            </div>
+    
+    <div class="container2">
+        <div class="part1">
+            <a href="tables.html" target="shiva"><h1>Tables</h1></a>
+            <a href="registration.html" target="shiva"><h1>Forms</h1></a>
+            <a href="#" target="#"><h1>Lists</h1></a>
+            <a href="workshopcards.html" target="shiva"><h1>Cards</h1></a>
+        </div>
+       <div class="part2">
+        <iframe src="" frameborder="0" name="shiva" width="100%" height="500vh"></iframe>
+       </div>
+    </div>
+    <!-- footer -->
+     <div class="container3">
+      <div class="part3">
+        <h2>help</h2>
+        <div style="padding: 10px;">FAQ </div>
+        <div style="padding: 10px;">Support</div>
+        <div style="padding: 10px;">orders </div>
+        <div style="padding: 10px;">Contact us </div>
+      </div>
+      <div class="part3">
+        <h2>help</h2>
+        <div style="padding: 10px;">FAQ </div>
+        <div style="padding: 10px;">Support</div>
+        <div style="padding: 10px;">orders </div>
+        <div style="padding: 10px;">Contact us </div>
+      </div>
+      <div class="part3">
+        <h2>help</h2>
+        <div style="padding: 10px;">FAQ </div>
+        <div style="padding: 10px;">Support</div>
+        <div style="padding: 10px;">orders </div>
+        <div style="padding: 10px;">Contact us </div>
+      </div>
+      <div class="part3">
+        <h2>help</h2>
+        <div style="padding: 10px;">FAQ </div>
+        <div style="padding: 10px;">Support</div>
+        <div style="padding: 10px;">orders </div>
+        <div style="padding: 10px;">Contact us </div>
+      </div>
+     </div>
+</body>
+</html>
